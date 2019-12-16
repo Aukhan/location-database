@@ -1,0 +1,37 @@
+{
+  "name": "location-database",
+  "version": "0.1.0",
+  "description": "This package contains a list of countries, cities, states and time-zones and derives information from three different repositories",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src",
+    "lint:fix": "./node_modules/.bin/eslint src --fix",
+    "build": "node src/compile",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aukhan/location-database.git"
+  },
+  "author": "Asad Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aukhan/location-database/issues"
+  },
+  "homepage": "https://github.com/Aukhan/location-database#readme",
+  "devDependencies": {
+    "countries-and-timezones": "^2.0.5",
+    "countrycitystatejson": "^0.2.13",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-dependency": "^0.1.0",
+    "jest": "^24.9.0"
+  },
+  "gitDependencies": {
+    "countries-states-cities-database": "git@github.com:dr5hn/countries-states-cities-database.git"
+  }
+}
